@@ -1,0 +1,32 @@
+{
+  "name": "view-step-file-with-threejs",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-three/drei": "9.36.0",
+    "@react-three/fiber": "8.6.2",
+    "@types/three": "0.143.2",
+    "occt-import-js": "0.0.12",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "0.144.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.11",
+    "@vitejs/plugin-react": "^4.2.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
